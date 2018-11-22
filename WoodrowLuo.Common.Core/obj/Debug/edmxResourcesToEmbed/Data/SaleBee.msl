@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SaleBeeModelStoreContainer" CdmEntityContainer="SaleBeeEntities">
+    <EntitySetMapping Name="Bees">
+      <EntityTypeMapping TypeName="SaleBeeModel.Bee">
+        <MappingFragment StoreEntitySet="Bee">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="BeeWeight" ColumnName="BeeWeight" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="SendUser" ColumnName="SendUser" />
+          <ScalarProperty Name="SendPhone" ColumnName="SendPhone" />
+          <ScalarProperty Name="SendAddress" ColumnName="SendAddress" />
+          <ScalarProperty Name="SendTime" ColumnName="SendTime" />
+          <ScalarProperty Name="ReceviedUser" ColumnName="ReceviedUser" />
+          <ScalarProperty Name="Receviedhone" ColumnName="Receviedhone" />
+          <ScalarProperty Name="ReceviedAddress" ColumnName="ReceviedAddress" />
+          <ScalarProperty Name="ReceviedTime" ColumnName="ReceviedTime" />
+          <ScalarProperty Name="SaleTime" ColumnName="SaleTime" />
+          <ScalarProperty Name="BeeStatus" ColumnName="BeeStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="SaleBeeModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

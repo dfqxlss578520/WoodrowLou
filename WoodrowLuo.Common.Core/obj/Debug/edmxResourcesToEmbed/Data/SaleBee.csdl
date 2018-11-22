@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SaleBeeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Bee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Category" Type="Int32" />
+    <Property Name="BeeWeight" Type="Int32" />
+    <Property Name="Color" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Number" Type="Int32" />
+    <Property Name="SendUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SendPhone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SendAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="SendTime" Type="DateTime" Precision="3" />
+    <Property Name="ReceviedUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Receviedhone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ReceviedAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="ReceviedTime" Type="DateTime" Precision="3" />
+    <Property Name="SaleTime" Type="DateTime" Precision="3" />
+    <Property Name="BeeStatus" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="SaleBeeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Bees" EntityType="Self.Bee" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+  </EntityContainer>
+</Schema>

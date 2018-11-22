@@ -1,0 +1,13 @@
+F:\MyCode\Bee\WoodrowLuo\WoodrowLuo.Common.Modes\bin\Debug\WoodrowLuo.Common.Modes.dll
+F:\MyCode\Bee\WoodrowLuo\WoodrowLuo.Common.Modes\bin\Debug\WoodrowLuo.Common.Modes.pdb
+F:\MyCode\Bee\WoodrowLuo\WoodrowLuo.Common.Modes\obj\Debug\WoodrowLuo.Common.Modes.dll
+F:\MyCode\Bee\WoodrowLuo\WoodrowLuo.Common.Modes\obj\Debug\WoodrowLuo.Common.Modes.pdb
+F:\MyCode\Bee\WoodrowLou\WoodrowLuo.Common.Modes\bin\Debug\WoodrowLuo.Common.Modes.dll
+F:\MyCode\Bee\WoodrowLou\WoodrowLuo.Common.Modes\bin\Debug\WoodrowLuo.Common.Modes.pdb
+F:\MyCode\Bee\WoodrowLou\WoodrowLuo.Common.Modes\obj\Debug\WoodrowLuo.Common.Modes.dll
+F:\MyCode\Bee\WoodrowLou\WoodrowLuo.Common.Modes\obj\Debug\WoodrowLuo.Common.Modes.pdb
+F:\MyCode\WoodrowLou\WoodrowLou\WoodrowLuo.Common.Modes\bin\Debug\WoodrowLuo.Common.Modes.dll
+F:\MyCode\WoodrowLou\WoodrowLou\WoodrowLuo.Common.Modes\bin\Debug\WoodrowLuo.Common.Modes.pdb
+F:\MyCode\WoodrowLou\WoodrowLou\WoodrowLuo.Common.Modes\obj\Debug\WoodrowLuo.Common.Modes.dll
+F:\MyCode\WoodrowLou\WoodrowLou\WoodrowLuo.Common.Modes\obj\Debug\WoodrowLuo.Common.Modes.pdb
+F:\MyCode\WoodrowLou\WoodrowLou\WoodrowLuo.Common.Modes\obj\Debug\WoodrowLuo.Common.Modes.csprojResolveAssemblyReference.cache

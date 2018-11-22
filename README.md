@@ -1,2 +1,0 @@
-# WoodrowLou
-Bee project

@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{1002F869-5271-4F91-AFB5-E5FA7B092BF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{7C2AE535-4103-4979-A86A-1DDF4B358AD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoodrowLuo.Common.Core", "WoodrowLuo.Common.Core\WoodrowLuo.Common.Core.csproj", "{3CBCEB8B-4C9B-4F4A-A2FC-4037451E2F5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoodrowLuo.Common.Modes", "WoodrowLuo.Common.Modes\WoodrowLuo.Common.Modes.csproj", "{06396783-D263-401F-9F9A-732771FA3025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoodrowLuo.Common.Services", "WoodrowLuo.Common.Services\WoodrowLuo.Common.Services.csproj", "{6D861312-C0B3-47C7-80FA-DA251B043820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoodrowLuo.Common.Utils", "WoodrowLuo.Common.Utils\WoodrowLuo.Common.Utils.csproj", "{B0D29AA9-98CA-4D2B-BF79-CE7584FAFAE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoodrowLuo.WebUI.Bee", "WoodrowLuo.WebUI.Bee\WoodrowLuo.WebUI.Bee.csproj", "{7BCC1E21-54F9-43BF-9D0C-9494A164D22A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CBCEB8B-4C9B-4F4A-A2FC-4037451E2F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBCEB8B-4C9B-4F4A-A2FC-4037451E2F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBCEB8B-4C9B-4F4A-A2FC-4037451E2F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBCEB8B-4C9B-4F4A-A2FC-4037451E2F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06396783-D263-401F-9F9A-732771FA3025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06396783-D263-401F-9F9A-732771FA3025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06396783-D263-401F-9F9A-732771FA3025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06396783-D263-401F-9F9A-732771FA3025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D861312-C0B3-47C7-80FA-DA251B043820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D861312-C0B3-47C7-80FA-DA251B043820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D861312-C0B3-47C7-80FA-DA251B043820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D861312-C0B3-47C7-80FA-DA251B043820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D29AA9-98CA-4D2B-BF79-CE7584FAFAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D29AA9-98CA-4D2B-BF79-CE7584FAFAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D29AA9-98CA-4D2B-BF79-CE7584FAFAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D29AA9-98CA-4D2B-BF79-CE7584FAFAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BCC1E21-54F9-43BF-9D0C-9494A164D22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCC1E21-54F9-43BF-9D0C-9494A164D22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCC1E21-54F9-43BF-9D0C-9494A164D22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCC1E21-54F9-43BF-9D0C-9494A164D22A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CBCEB8B-4C9B-4F4A-A2FC-4037451E2F5D} = {1002F869-5271-4F91-AFB5-E5FA7B092BF3}
+		{06396783-D263-401F-9F9A-732771FA3025} = {1002F869-5271-4F91-AFB5-E5FA7B092BF3}
+		{6D861312-C0B3-47C7-80FA-DA251B043820} = {1002F869-5271-4F91-AFB5-E5FA7B092BF3}
+		{B0D29AA9-98CA-4D2B-BF79-CE7584FAFAE8} = {1002F869-5271-4F91-AFB5-E5FA7B092BF3}
+		{7BCC1E21-54F9-43BF-9D0C-9494A164D22A} = {7C2AE535-4103-4979-A86A-1DDF4B358AD3}
+	EndGlobalSection
+EndGlobal

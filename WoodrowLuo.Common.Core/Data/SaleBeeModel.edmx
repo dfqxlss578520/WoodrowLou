@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SaleBeeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Bee">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+          <Property Name="Category" Type="int" />
+          <Property Name="BeeWeight" Type="int" />
+          <Property Name="Color" Type="varchar" MaxLength="20" />
+          <Property Name="Number" Type="int" />
+          <Property Name="SendUser" Type="varchar" MaxLength="50" />
+          <Property Name="SendPhone" Type="varchar" MaxLength="20" />
+          <Property Name="SendAddress" Type="varchar" MaxLength="200" />
+          <Property Name="SendTime" Type="datetime" />
+          <Property Name="ReceviedUser" Type="varchar" MaxLength="50" />
+          <Property Name="Receviedhone" Type="varchar" MaxLength="20" />
+          <Property Name="ReceviedAddress" Type="varchar" MaxLength="200" />
+          <Property Name="ReceviedTime" Type="datetime" />
+          <Property Name="SaleTime" Type="datetime" />
+          <Property Name="BeeStatus" Type="int" />
+        </EntityType>
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="SaleBeeModelStoreContainer">
+          <EntitySet Name="Bee" EntityType="Self.Bee" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SaleBeeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Bee">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Category" Type="Int32" />
+          <Property Name="BeeWeight" Type="Int32" />
+          <Property Name="Color" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Number" Type="Int32" />
+          <Property Name="SendUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SendPhone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SendAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="SendTime" Type="DateTime" Precision="3" />
+          <Property Name="ReceviedUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Receviedhone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="ReceviedAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="ReceviedTime" Type="DateTime" Precision="3" />
+          <Property Name="SaleTime" Type="DateTime" Precision="3" />
+          <Property Name="BeeStatus" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="SaleBeeEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Bees" EntityType="Self.Bee" />
+          <EntitySet Name="Categories" EntityType="Self.Category" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SaleBeeModelStoreContainer" CdmEntityContainer="SaleBeeEntities">
+          <EntitySetMapping Name="Bees">
+            <EntityTypeMapping TypeName="SaleBeeModel.Bee">
+              <MappingFragment StoreEntitySet="Bee">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="BeeWeight" ColumnName="BeeWeight" />
+                <ScalarProperty Name="Color" ColumnName="Color" />
+                <ScalarProperty Name="Number" ColumnName="Number" />
+                <ScalarProperty Name="SendUser" ColumnName="SendUser" />
+                <ScalarProperty Name="SendPhone" ColumnName="SendPhone" />
+                <ScalarProperty Name="SendAddress" ColumnName="SendAddress" />
+                <ScalarProperty Name="SendTime" ColumnName="SendTime" />
+                <ScalarProperty Name="ReceviedUser" ColumnName="ReceviedUser" />
+                <ScalarProperty Name="Receviedhone" ColumnName="Receviedhone" />
+                <ScalarProperty Name="ReceviedAddress" ColumnName="ReceviedAddress" />
+                <ScalarProperty Name="ReceviedTime" ColumnName="ReceviedTime" />
+                <ScalarProperty Name="SaleTime" ColumnName="SaleTime" />
+                <ScalarProperty Name="BeeStatus" ColumnName="BeeStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Categories">
+            <EntityTypeMapping TypeName="SaleBeeModel.Category">
+              <MappingFragment StoreEntitySet="Category">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="false" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,13 @@
+F:\MyCode\Bee\WoodrowLuo\WoodrowLuo.Common.Utils\bin\Debug\WoodrowLuo.Common.Utils.dll
+F:\MyCode\Bee\WoodrowLuo\WoodrowLuo.Common.Utils\bin\Debug\WoodrowLuo.Common.Utils.pdb
+F:\MyCode\Bee\WoodrowLuo\WoodrowLuo.Common.Utils\obj\Debug\WoodrowLuo.Common.Utils.dll
+F:\MyCode\Bee\WoodrowLuo\WoodrowLuo.Common.Utils\obj\Debug\WoodrowLuo.Common.Utils.pdb
+F:\MyCode\Bee\WoodrowLou\WoodrowLuo.Common.Utils\bin\Debug\WoodrowLuo.Common.Utils.dll
+F:\MyCode\Bee\WoodrowLou\WoodrowLuo.Common.Utils\bin\Debug\WoodrowLuo.Common.Utils.pdb
+F:\MyCode\Bee\WoodrowLou\WoodrowLuo.Common.Utils\obj\Debug\WoodrowLuo.Common.Utils.dll
+F:\MyCode\Bee\WoodrowLou\WoodrowLuo.Common.Utils\obj\Debug\WoodrowLuo.Common.Utils.pdb
+F:\MyCode\WoodrowLou\WoodrowLou\WoodrowLuo.Common.Utils\bin\Debug\WoodrowLuo.Common.Utils.dll
+F:\MyCode\WoodrowLou\WoodrowLou\WoodrowLuo.Common.Utils\bin\Debug\WoodrowLuo.Common.Utils.pdb
+F:\MyCode\WoodrowLou\WoodrowLou\WoodrowLuo.Common.Utils\obj\Debug\WoodrowLuo.Common.Utils.dll
+F:\MyCode\WoodrowLou\WoodrowLou\WoodrowLuo.Common.Utils\obj\Debug\WoodrowLuo.Common.Utils.pdb
+F:\MyCode\WoodrowLou\WoodrowLou\WoodrowLuo.Common.Utils\obj\Debug\WoodrowLuo.Common.Utils.csprojResolveAssemblyReference.cache
